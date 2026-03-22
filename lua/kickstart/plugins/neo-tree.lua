@@ -25,6 +25,7 @@ return {
 				hide_gitignored = false,
 			},
 			window = {
+				width = 30,
 				mappings = {
 					["\\"] = "close_window",
 				},
