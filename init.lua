@@ -324,10 +324,10 @@ require("lazy").setup({
 			icons = { mappings = vim.g.have_nerd_font },
 			-- Document existing key chains
 			spec = {
-				{ "<leader>s", group = "[S]earch", mode = { "n", "v" } },
+				{ "<leader>s", group = "[S]earch",    mode = { "n", "v" } },
 				{ "<leader>t", group = "[T]oggle" },
-				{ "<leader>h", group = "Git [H]unk", mode = { "n", "v" } }, -- Enable gitsigns recommended keymaps first
-				{ "gr", group = "LSP Actions", mode = { "n" } },
+				{ "<leader>h", group = "Git [H]unk",  mode = { "n", "v" } }, -- Enable gitsigns recommended keymaps first
+				{ "gr",        group = "LSP Actions", mode = { "n" } },
 			},
 		},
 	},
@@ -370,7 +370,7 @@ require("lazy").setup({
 			{ "nvim-telescope/telescope-ui-select.nvim" },
 
 			-- Useful for getting pretty icons, but requires a Nerd Font.
-			{ "nvim-tree/nvim-web-devicons", enabled = vim.g.have_nerd_font },
+			{ "nvim-tree/nvim-web-devicons",            enabled = vim.g.have_nerd_font },
 		},
 		config = function()
 			-- Telescope is a fuzzy finder that comes with a lot of different things that
